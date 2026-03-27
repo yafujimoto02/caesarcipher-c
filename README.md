@@ -7,6 +7,8 @@ Uppercase and lowercase letters are handled. Non-letters remain unchanged.
 ## Features
 - Encrypts messages with a user-specified shift key
 - Handles both uppercase and lowercase letters
+- Preserves spaces, punctuation, and numbers
+- Supports negative and large shift keys (normalized internally)
 
 ## How to Compile
 Use `gcc` to compile the program:
